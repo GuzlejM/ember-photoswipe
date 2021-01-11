@@ -79,7 +79,7 @@ All list of options is available [here](https://photoswipe.com/documentation/opt
 
 ### Event
 
-Phowo-swipe sends actions based on the corresponding photoswipe [events](https://photoswipe.com/documentation/api.html).
+Photo-swipe sends actions based on the corresponding photoswipe [events](https://photoswipe.com/documentation/api.html).
 
 ```mustache
 {{#photo-swipe items=items onInitialZoomInEnd=(action "onInitialZoomInEnd") as |photoswipe|}}
